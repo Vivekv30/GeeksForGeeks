@@ -12,3 +12,9 @@ class Solution{
         return (n & (n - 1)) == 0;
     }
 }
+//__________________________________________________________________________
+//to get 2 power x 
+
+//  int result = 1 << x; 
+//        or
+//int result = (int) Math.pow(2, x);
