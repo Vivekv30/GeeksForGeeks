@@ -5,6 +5,8 @@ class Solution{
         System.out.println(check(A,B,A.length));
     }
     //Function to check if two arrays are equal or not.
+    //time complexity - O(N)
+    //space complexity - O(N)
     public static boolean check(long A[],long B[],int N)
     {
         //Your code here
