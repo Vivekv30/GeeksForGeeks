@@ -1,6 +1,8 @@
   //a={1,2,3,4,5}
   //b={1,2,3}
   //a U b ={1,2,3,4,5} 
+//time complexity -  O(max(n, m))
+//space complexity - O(n+m)
 class Solution{
     public static int doUnion(int a[], int n, int b[], int m)  {
        
