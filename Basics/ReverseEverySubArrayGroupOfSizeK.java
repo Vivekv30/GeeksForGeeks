@@ -1,3 +1,5 @@
+//time complexity - o(n)
+//space complexity - o(1)
 class Solution {
     //Function to reverse every sub-array group of size k.
     void reverseInGroups(ArrayList<Integer> arr, int n, int k) {
