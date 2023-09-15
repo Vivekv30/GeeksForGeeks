@@ -1,0 +1,22 @@
+// time complexity: O(n)
+// space complexity: O(1)
+
+class Compute 
+{
+    static Pair getMinMax(long a[], long n)  
+    {
+        //Write your code here
+        long min=Long.MAX_VALUE,
+             max=Long.MIN_VALUE;
+            
+        for(int i=0;i<n;i++){
+	            if(min>a[i]){
+	                min=a[i];
+	            }
+	            if(max<a[i]) {
+	            	max=a[i];
+	            }
+        }
+        return new Pair(min,max);
+    }
+}
