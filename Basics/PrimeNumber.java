@@ -1,3 +1,5 @@
+//time complexity - O(sqrt(N))
+//space complexity - O(1)
 class Solution{
     static int isPrime(int N){
         // code here
